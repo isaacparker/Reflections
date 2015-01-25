@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+init creates a metadata file called .git that will carry all your commit information.
