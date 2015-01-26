@@ -21,3 +21,8 @@ They help you see where a new branch was created and list the commits all the wa
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 merging updates the master with a branches changes.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+The pros are git is smart enough to merge branches that don't have conflicts on the same lines of code thus saving time and frustration over tracking and looking for differences in the code.
+
+The cons are git doesn't always know what to do if the same bit of code is changed by the two parties, so you have to contact the person and resolve the code manually. Doing it manually assures that the code stays clean and keeps git from making weird/ false merges to the code.
