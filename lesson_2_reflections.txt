@@ -17,3 +17,7 @@ Making branches allows you to make experimental or alternative versions of your 
 How do the diagrams help you visualize the branch structure?
 
 They help you see where a new branch was created and list the commits all the way to the branch tips of each branch in relation to the master branch
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+merging updates the master with a branches changes.
